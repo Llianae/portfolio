@@ -20,11 +20,6 @@ export const defaultOptions = {
       polygon: {
         sides: 5,
       },
-      image: {
-        src: "https://cdn.matteobruni.it/images/particles/github.svg",
-        width: 100,
-        height: 100,
-      },
     },
     opacity: {
       value: 0.5,

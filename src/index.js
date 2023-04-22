@@ -11,6 +11,7 @@ import { en, fr } from "make-plural/plurals";
 import Layout from "./components/Layout";
 import App from "./components/App";
 import ParticlesBackground from "./components/ParticlesBackground";
+import Background from "./components/Background";
 
 i18n.load({
   en: enMessages,
@@ -32,11 +33,14 @@ const theme = createTheme({
     secondary: {
       main: "#99df",
     },
-    navBarBackground: {
-      main: "#99df",
-    },
     white: {
       main: "#ffffff",
+    },
+    timelineFuturColor: {
+      main: "#0055ff",
+    },
+    timelinePastColor: {
+      main: "#dd00bb",
     },
   },
   typography: {
@@ -60,6 +64,7 @@ root.render(
           <Layout>
             <Routes>
               <Route path="/" element={<App />} />
+              <Route path="/background" element={<Background />} />
               <Route path="*" element={<Navigate to="/" replace />} />
             </Routes>
           </Layout>

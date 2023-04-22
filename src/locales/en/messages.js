@@ -1,1 +1,1 @@
-/*eslint-disable*/ module.exports = { messages: JSON.parse("{}") };
+/*eslint-disable*/module.exports={messages:JSON.parse("{\"A Propos\":\"About me\",\"Accueil\":\"Home\",\"Competences\":\"Skills\",\"Contact\":\"Contact\",\"Parcours\":\"Background\"}")};

@@ -6,3 +6,29 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: @lingui/cli\n"
 "Language: en\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Plural-Forms: \n"
+
+#: src/components/NavBar.js:12
+msgid "A Propos"
+msgstr "About me"
+
+#: src/components/NavBar.js:9
+msgid "Accueil"
+msgstr "Home"
+
+#: src/components/NavBar.js:11
+msgid "Competences"
+msgstr "Skills"
+
+#: src/components/NavBar.js:13
+msgid "Contact"
+msgstr "Contact"
+
+#: src/components/NavBar.js:10
+msgid "Parcours"
+msgstr "Background"

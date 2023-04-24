@@ -9,7 +9,7 @@ import {
   TimelineOppositeContent,
   TimelineSeparator,
 } from "@mui/lab";
-import { Button, Stack } from "@mui/material";
+import { Stack } from "@mui/material";
 import { Link, Outlet, useParams } from "react-router-dom";
 import { t } from "@lingui/macro";
 

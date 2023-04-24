@@ -21,7 +21,6 @@ import CreateIcon from "@mui/icons-material/Create";
 import AssessmentIcon from "@mui/icons-material/Assessment";
 import DirectionsRunIcon from "@mui/icons-material/DirectionsRun";
 import CodeIcon from "@mui/icons-material/Code";
-import LanguageIcon from "@mui/icons-material/Language";
 import ExtensionIcon from "@mui/icons-material/Extension";
 import StorageIcon from "@mui/icons-material/Storage";
 import GitHubIcon from "@mui/icons-material/GitHub";

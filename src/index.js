@@ -12,6 +12,10 @@ import Layout from "./components/Layout";
 import App from "./components/App";
 import ParticlesBackground from "./components/ParticlesBackground";
 import Background from "./components/Background";
+import Contact from "./components/Contact";
+import Skills from "./components/Skills";
+import BackgroundDetails from "./components/BackgroundDetails";
+import AboutMe from "./components/AboutMe";
 
 i18n.load({
   en: enMessages,
@@ -23,15 +27,18 @@ i18n.loadLocaleData({
   fr: { plurals: fr },
 });
 
-i18n.activate(localStorage.getItem("language") || "fr");
+i18n.activate(localStorage.getItem("language") || "en");
 
 const theme = createTheme({
   palette: {
     primary: {
-      main: "#000000",
+      main: "#ffffff",
     },
     secondary: {
       main: "#99df",
+    },
+    black: {
+      main: "#000000",
     },
     white: {
       main: "#ffffff",
@@ -41,6 +48,9 @@ const theme = createTheme({
     },
     timelinePastColor: {
       main: "#dd00bb",
+    },
+    formulaireBorderColor: {
+      main: "#2266FF",
     },
   },
   typography: {
@@ -64,7 +74,12 @@ root.render(
           <Layout>
             <Routes>
               <Route path="/" element={<App />} />
-              <Route path="/background" element={<Background />} />
+              <Route path="/background" element={<Background />}>
+                <Route path=":id" element={<BackgroundDetails />} />
+              </Route>
+              <Route path="/skills" element={<Skills />} />
+              <Route path="/contact" element={<Contact />} />
+              <Route path="/aboutme" element={<AboutMe />} />
               <Route path="*" element={<Navigate to="/" replace />} />
             </Routes>
           </Layout>

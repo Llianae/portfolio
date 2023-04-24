@@ -1,5 +1,6 @@
 import React from "react";
 import { Grid, Typography } from "@mui/material";
+import { t } from "@lingui/macro";
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
         sx={{
           marginLeft: "3em",
           position: "relative",
-          bottom: "-6em",
+          bottom: "-2em",
         }}
       >
         <Grid>
@@ -21,7 +22,7 @@ function App() {
             fontSize={"20px"}
             fontFamily={"montserrat,sans-serif;"}
           >
-            Etudiante en 1er année de cycle d'ingénieur
+            {t`Etudiante en 1er année de cycle d'ingénieur en informatique`}
           </Typography>
         </Grid>
         <Grid xs={3}>
@@ -42,9 +43,9 @@ function App() {
             fontSize={"20px"}
             fontFamily={"montserrat,sans-serif;"}
           >
-            Actuellement en première année du cycle ingénieur en informatique
+            {t`Actuellement en première année du cycle ingénieur en informatique
             dans une école d'ingénieur, je suis à la recherche d'un stage qui
-            pourrait me rapprocher de mon futur métier.
+            pourrait me rapprocher de mon futur métier.`}
           </Typography>
         </Grid>
       </Grid>

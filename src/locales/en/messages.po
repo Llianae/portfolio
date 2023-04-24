@@ -13,22 +13,354 @@ msgstr ""
 "Language-Team: \n"
 "Plural-Forms: \n"
 
+#: src/components/Background.js:42
+msgid "01/2023-04/2023"
+msgstr "01/2023-04/2023"
+
+#: src/components/Background.js:28
+msgid "01/2025-06/2025"
+msgstr "01/2025-06/2025"
+
+#: src/components/Background.js:51
+msgid "04/2022-07/2022"
+msgstr "04/2022-07/2022"
+
+#: src/components/Background.js:71
+msgid "06/2020"
+msgstr "06/2020"
+
+#: src/components/Background.js:21
+msgid "06/2025"
+msgstr "06/2025"
+
+#: src/components/Background.js:78
+msgid "09/2017-06/2020"
+msgstr "09/2017-06/2020"
+
+#: src/components/Background.js:62
+msgid "09/2020"
+msgstr "09/2020"
+
+#: src/components/Background.js:35
+msgid "09/2023-01/2024"
+msgstr "09/2023-01/2024"
+
 #: src/components/NavBar.js:12
 msgid "A Propos"
 msgstr "About me"
+
+#: src/components/AboutMe.js:52
+msgid "About"
+msgstr "About me"
+
+#: src/components/AboutMe.js:54
+msgid "About me 1rst paragraph"
+msgstr "I am currently in my first year of the engineering cycle at CESI Strasbourg, a school using the PBL (problem based learning) method. I am currently looking for an internship abroad, as part of my studies from September 18th to February 2nd."
+
+#: src/components/AboutMe.js:57
+msgid "About me 2nd paragraph"
+msgstr "In my free time I work on my personal projects or go out with my friends. I played handball for 12 years as a goalkeeper, with my team we won a few cups and we were able to be Alsace champions for a year. I love to do new activities, to spend time and to discover new things through my experiences. I am curious and I like to learn. I also read a lot of books, be it detective stories, fantasy, action or manga."
+
+#: src/components/AboutMe.js:60
+msgid "About me 3rd paragraph"
+msgstr "I speak French fluently, it is my mother tongue, and I have a good level in English, level B1 (TOEIC: 690 pts)."
 
 #: src/components/NavBar.js:9
 msgid "Accueil"
 msgstr "Home"
 
+#: src/components/App.js:46
+msgid ""
+"Actuellement en première année du cycle ingénieur en informatique\n"
+"dans une école d'ingénieur, je suis à la recherche d'un stage qui\n"
+"pourrait me rapprocher de mon futur métier."
+msgstr ""
+"Currently in my first year of computer engineering studies\n"
+"at an engineering school, I am looking for an internship that could\n"
+"bring me closer to my future career."
+
+#: src/components/Skills.js:64
+msgid "Adaptabilité"
+msgstr "Adaptability"
+
+#: src/components/Skills.js:103
+msgid "Angular"
+msgstr "Angular"
+
+#: src/components/Skills.js:56
+msgid "Autonomie"
+msgstr "Autonomy"
+
+#: src/components/Skills.js:83
+msgid "C#"
+msgstr "C#"
+
+#: src/components/Skills.js:82
+msgid "C++"
+msgstr "C++"
+
+#: src/components/Skills.js:89
+msgid "CSS"
+msgstr "CSS"
+
+#: src/components/Background.js:104
+msgid "Cliquer sur un élément pour en savoir plus."
+msgstr "Click on an event to learn more."
+
+#: src/components/Skills.js:36
+msgid "Communication"
+msgstr "Communication"
+
 #: src/components/NavBar.js:11
 msgid "Competences"
+msgstr "My Skills"
+
+#: src/components/Skills.js:129
+msgid "Compétences"
 msgstr "Skills"
 
 #: src/components/NavBar.js:13
 msgid "Contact"
-msgstr "Contact"
+msgstr "Contact me"
+
+#: src/components/Skills.js:68
+msgid "Créativité"
+msgstr "Creativity"
+
+#: src/components/Skills.js:60
+msgid "Curiosité"
+msgstr "Curiosity"
+
+#: src/components/AboutMe.js:31
+msgid "Description plateformer game"
+msgstr "Beginning of a small platform game using Unity, under development."
+
+#: src/components/AboutMe.js:19
+msgid "Description portfolio website"
+msgstr "The website you are currently visiting!"
+
+#: src/components/AboutMe.js:25
+msgid "Description vacation planner website"
+msgstr "A website to plan your vacations, gathering vacation houses. It allows you to rate them and comment on them. Search by criteria, and possibility to create accounts. Using React, NodeJS and MySQL."
+
+#: src/components/Background.js:20
+msgid "Diplome d'ingénieur en informatique"
+msgstr "Engineering degree in computer science"
+
+#: src/components/Contact.js:166
+msgid "Email"
+msgstr "Email"
+
+#: src/components/Background.js:61
+msgid "Entrée au CESI"
+msgstr "Admission to CESI"
+
+#: src/components/Contact.js:113
+msgid "Envoyez moi un message !"
+msgstr "Send me a message!"
+
+#: src/components/Skills.js:72
+msgid "Esprit d'analyse"
+msgstr "Analytical mindset"
+
+#: src/components/App.js:25
+msgid "Etudiante en 1er année de cycle d'ingénieur en informatique"
+msgstr "Student in the first year of a computer engineering course"
+
+#: src/components/Background.js:79
+msgid "Filière général Scientifique-SVT, spécialité ISN, au lycée Dr Koeberle à Séléstat."
+msgstr "General Scientific-SVT sector, specialising in ISN, at the Lycée Dr Koeberle in Séléstat."
+
+#: src/components/Skills.js:44
+msgid "Gestion de projet"
+msgstr "Project management"
+
+#: src/components/Skills.js:48
+msgid "Gestion du stress"
+msgstr "Stress management"
+
+#: src/components/Skills.js:111
+msgid "GitHub"
+msgstr "GitHub"
+
+#: src/components/Skills.js:86
+msgid "HTML"
+msgstr "HTML"
+
+#: src/components/Skills.js:165
+msgid "HardSkills"
+msgstr "HardSkills"
+
+#: src/components/Background.js:63
+msgid ""
+"J'ai intégré l'école d'ingénieur CESI à Lingolsheim en septembre 2020, pour y suivre une formation \n"
+"d'ingénieur en informatique. C'est un cursus de 5 ans, avec une classe préparatoire intégrée qui dure 2 ans, et le cycle\n"
+"d'ingénieur qui dure 3 ans."
+msgstr ""
+"I joined the CESI engineering school in Lingolsheim in September 2020, to study computer science \n"
+"engineering. It is a 5-year course, with an integrated preparatory class lasting 2 years, and the engineering cycle lasting\n"
+"3 years."
+
+#: src/components/Background.js:72
+msgid "J'ai obtenu en 2020 mon baccalauréat scientifique spécialité ISN, avec mention bien."
+msgstr "I obtained my scientific baccalaureate in 2020, specialising in ISN, with honours."
+
+#: src/components/Skills.js:91
+msgid "JavaScript"
+msgstr "JavaScript"
+
+#: src/components/Background.js:77
+msgid "Lycée Dr Koeberle"
+msgstr "Dr Koeberle High School"
+
+#: src/components/Skills.js:115
+msgid "Microsoft Office"
+msgstr "Microsoft Office"
+
+#: src/components/AboutMe.js:72
+msgid "My projects"
+msgstr "My projects"
+
+#: src/components/Skills.js:107
+msgid "MySQL"
+msgstr "MySQL"
+
+#: src/components/Contact.js:147
+msgid "Nom"
+msgstr "Name"
+
+#: src/components/Background.js:22
+msgid "Obtention de mon diplôme d'ingénieur en informatique à l'école CESI de Lingolsheim."
+msgstr "Graduation as a computer engineer at the CESI school in Lingolsheim."
+
+#: src/components/Background.js:70
+msgid "Obtention du Baccalauréat Scientifique"
+msgstr "Obtaining the Scientific Baccalaureate"
 
 #: src/components/NavBar.js:10
 msgid "Parcours"
-msgstr "Background"
+msgstr "My Background"
+
+#: src/components/Skills.js:76
+msgid "Perseverance"
+msgstr "Perseverance"
+
+#: src/components/AboutMe.js:30
+msgid "Plateformer game"
+msgstr "Plateformer game"
+
+#: src/components/Contact.js:140
+msgid "Please enter a firstname."
+msgstr "Please enter a firstname."
+
+#: src/components/Contact.js:194
+msgid "Please enter a message."
+msgstr "Please enter a message."
+
+#: src/components/Contact.js:159
+msgid "Please enter a name."
+msgstr "Please enter a name."
+
+#: src/components/Contact.js:177
+msgid "Please enter a valid email."
+msgstr "Please enter a valid email."
+
+#: src/components/AboutMe.js:18
+msgid "Portfolio website"
+msgstr "Portfolio website"
+
+#: src/components/AboutMe.js:84
+msgid "Projets personnels"
+msgstr "Personal projects"
+
+#: src/components/Contact.js:129
+msgid "Prénom"
+msgstr "Firstname"
+
+#: src/components/Skills.js:84
+msgid "Python"
+msgstr "Python"
+
+#: src/components/Skills.js:99
+msgid "React"
+msgstr "React"
+
+#: src/components/Skills.js:52
+msgid "Rigueur"
+msgstr "Rigor"
+
+#: src/components/Skills.js:145
+msgid "SoftSkills"
+msgstr "SoftSkills"
+
+#: src/components/Contact.js:210
+msgid "Soumettre"
+msgstr "Submit"
+
+#: src/components/Background.js:27
+msgid "Stage de cinquième année"
+msgstr "Fifth year internship"
+
+#: src/components/Background.js:50
+msgid "Stage de deuxième année"
+msgstr "Second year internship"
+
+#: src/components/Background.js:52
+msgid ""
+"Stage de deuxième année, réalisé chez Alcatel-Lucent-Enterprise, dans le service de développement web. \n"
+"J'ai pu découvrir ce qu'était la vie en entreprise, et j'ai pu développer mes compétences en développement web. \n"
+"C'est durant ce stage que j'ai pu apprendre le language TypeScript et le framework Angular. J'ai aussi pu travailler\n"
+"sur un projet en autonomie, où j'ai pu apprendre le webgl, afin d'améliorer la création d'un arrière plan virtuel, lors \n"
+"d'un appel vidéo dans la solution de communication Rainbow."
+msgstr ""
+"Second year internship at Alcatel-Lucent-Enterprise, in the web development department. I was able to \n"
+"discover what life in a company was like, and I was able to develop my skills in web development. During this \n"
+"internship, I was able to learn the TypeScript language and the Angular framework. I was also able to work on a project\n"
+"in autonomy, where I was able to learn the webgl, in order to improve the creation of a virtual background, during a video\n"
+"call in the Rainbow communication solution."
+
+#: src/components/Background.js:29
+msgid "Stage de fin d'étude."
+msgstr "Final year internship."
+
+#: src/components/Background.js:34
+msgid "Stage de quatrième année à l'étranger"
+msgstr "Fourth year internship abroad"
+
+#: src/components/Background.js:36
+msgid "Stage de qutrième année à l'étranger."
+msgstr "Fourth year internship, which must be carried out abroad."
+
+#: src/components/Background.js:41
+msgid "Stage de troisième année"
+msgstr "Third year internship"
+
+#: src/components/Background.js:43
+msgid ""
+"Stage de troisième année de 14 semaines, effectué au sein de la société YggVal dans le service d'infogérance. \n"
+"J'ai pu développer mes compétences en réseau et système. J'ai pu participer à la vie du service, \n"
+"et intervenir chez des clients lors de la résolution de problèmes et pour le renouvellement d'infrastructure."
+msgstr ""
+"Third year internship of 14 weeks, carried out within the company YggVal in the outsourcing department. I was \n"
+"able to develop my network and system skills. I was able to participate in the life of the service, \n"
+"and to intervene at customers' premises during the resolution of problems and for the renewal of infrastructure."
+
+#: src/components/Skills.js:40
+msgid "Travail en équipe"
+msgstr "Teamwork"
+
+#: src/components/Skills.js:95
+msgid "Typescript"
+msgstr "Typescript"
+
+#: src/components/AboutMe.js:24
+msgid "Vacation planner website"
+msgstr "Vacation planner website"
+
+#: src/components/Contact.js:112
+msgid "Vous avez des questions ?"
+msgstr "Do you have any questions?"
+
+#: src/components/Contact.js:184
+msgid "message"
+msgstr "Message"

@@ -27,7 +27,7 @@ function LanguageSwitcher() {
 
   return (
     <React.Fragment>
-      <Button onClick={handleClick} variant="text">
+      <Button onClick={handleClick} variant="text" color="black">
         <Typography variant="h6" sx={{ flexGrow: 1 }}>
           {languages.find((l) => l.code === language).abreviation}
         </Typography>

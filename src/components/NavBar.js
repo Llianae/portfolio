@@ -14,7 +14,7 @@ function NavBar() {
   ];
   return (
     <React.Fragment>
-      <Box sx={{ backgroundColor: "white.main", opacity: "0.8" }}>
+      <Box sx={{ backgroundColor: "white.main", opacity: "0.6" }}>
         <Toolbar>
           <Box sx={{ flexGrow: 1 }}>
             <Stack direction={"row"} spacing={6} ml={5}>
@@ -24,7 +24,11 @@ function NavBar() {
                     <Typography variant="h6">{page.name}</Typography>
                   </Link>
                   {index < pages.length - 1 && (
-                    <Divider orientation={"vertical"} flexItem />
+                    <Divider
+                      orientation={"vertical"}
+                      flexItem
+                      sx={{ backgroundColor: "black.main" }}
+                    />
                   )}
                 </React.Fragment>
               ))}

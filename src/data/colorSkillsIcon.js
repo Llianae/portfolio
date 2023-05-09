@@ -14,7 +14,6 @@ export const colorSkillsIcon = [
   "#505050",
   "#FF5A5F",
   "#6A5ACD",
-  "#FFB900",
   "#E60023",
   "#00A98F",
   "#E9546B",

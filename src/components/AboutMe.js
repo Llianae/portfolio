@@ -3,7 +3,6 @@ import {
   IconButton,
   List,
   ListItem,
-  ListItemIcon,
   ListItemText,
   Stack,
   Typography,
@@ -23,7 +22,6 @@ import WebIcon from "@mui/icons-material/Web";
 import DeviceHubIcon from "@mui/icons-material/DeviceHub";
 import AccountTreeIcon from "@mui/icons-material/AccountTree";
 import ComputerIcon from "@mui/icons-material/Computer";
-import { getRandomColor } from "../data/colorSkillsIcon";
 import { t } from "@lingui/macro";
 
 function AboutMe() {

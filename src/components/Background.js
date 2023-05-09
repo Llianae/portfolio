@@ -15,7 +15,7 @@ import { t } from "@lingui/macro";
 
 function Background() {
   const elements = [
-    {
+    /*{
       index: 0,
       title: t`Diplome d'ingénieur en informatique`,
       date: t`06/2025`,
@@ -35,7 +35,7 @@ function Background() {
       date: t`09/2023-01/2024`,
       description: t`Stage de qutrième année à l'étranger.`,
       future: true,
-    },
+    },*/
     {
       index: 3,
       title: t`Stage de troisième année`,
@@ -116,7 +116,7 @@ function Background() {
                       color={
                         element.future
                           ? "timelineFuturColor"
-                          : "timelinePastColor"
+                          : "timelineFuturColor"
                       }
                     />
                     <TimelineConnector />

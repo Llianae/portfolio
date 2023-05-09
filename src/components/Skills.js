@@ -26,6 +26,12 @@ import StorageIcon from "@mui/icons-material/Storage";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import DescriptionIcon from "@mui/icons-material/Description";
 import { getRandomColor } from "../data/colorSkillsIcon";
+import TextSnippetIcon from "@mui/icons-material/TextSnippet";
+import DataUsageIcon from "@mui/icons-material/DataUsage";
+import DeveloperBoardIcon from "@mui/icons-material/DeveloperBoard";
+import WebIcon from "@mui/icons-material/Web";
+import DeviceHubIcon from "@mui/icons-material/DeviceHub";
+import AccountTreeIcon from "@mui/icons-material/AccountTree";
 
 import { t } from "@lingui/macro";
 
@@ -115,9 +121,61 @@ function Skills() {
       icon: <DescriptionIcon style={{ color: getRandomColor() }} />,
     },
   ];
+
+  const knowledge = [
+    {
+      name: t`Structurer, synthétiser des informations`,
+      icon: <TextSnippetIcon style={{ color: getRandomColor() }} />,
+    },
+    {
+      name: t`Analyser, exploiter, structurer des données`,
+      icon: <DataUsageIcon style={{ color: getRandomColor() }} />,
+    },
+    {
+      name: t`Créer une documentation technique`,
+      icon: <DescriptionIcon style={{ color: getRandomColor() }} />,
+    },
+    {
+      name: t`Rédiger un cahier des charges, des spécifications techniques`,
+      icon: <AssignmentIcon style={{ color: getRandomColor() }} />,
+    },
+    {
+      name: t`Concevoir et développer une solution digitale`,
+      icon: <DeveloperBoardIcon style={{ color: getRandomColor() }} />,
+    },
+    {
+      name: t`Développer un logiciel, un système d'informations, une application`,
+      icon: <CodeIcon style={{ color: getRandomColor() }} />,
+    },
+    {
+      name: t`Programmer`,
+      icon: <CodeIcon style={{ color: getRandomColor() }} />,
+    },
+    {
+      name: t`Concevoir une application web`,
+      icon: <WebIcon style={{ color: getRandomColor() }} />,
+    },
+    {
+      name: t`Développer une application en lien avec une base de données`,
+      icon: <StorageIcon style={{ color: getRandomColor() }} />,
+    },
+    {
+      name: t`Concevoir l'architecture d'un système, d'un réseau`,
+      icon: <DeviceHubIcon style={{ color: getRandomColor() }} />,
+    },
+    {
+      name: t`Concevoir la cartographie fonctionnelle du SI`,
+      icon: <AccountTreeIcon style={{ color: getRandomColor() }} />,
+    },
+  ];
   return (
     <React.Fragment>
-      <CustomBox whiteBox responsive centered sx={{ width: "100%" }}>
+      <CustomBox
+        whiteBox
+        responsive
+        centered
+        sx={{ width: "100%", maxWidth: "65%" }}
+      >
         <Stack
           direction={"column"}
           spacing={2}
@@ -166,6 +224,26 @@ function Skills() {
               <Stack direction={"column"} spacing={0} width={"100%"}>
                 <List>
                   {hardSkills.map((skill) => (
+                    <ListItem>
+                      <ListItemIcon>{skill.icon}</ListItemIcon>
+                      <ListItemText primary={skill.name} />
+                    </ListItem>
+                  ))}
+                </List>
+              </Stack>
+            </Stack>
+            <Stack
+              direction={"column"}
+              spacing={2}
+              width={"100%"}
+              divider={<Divider orientation="horizontal" flexItem />}
+            >
+              <Typography variant="h5" textAlign={"center"}>
+                {t`knowledge`}
+              </Typography>
+              <Stack direction={"column"} spacing={0} width={"100%"}>
+                <List>
+                  {knowledge.map((skill) => (
                     <ListItem>
                       <ListItemIcon>{skill.icon}</ListItemIcon>
                       <ListItemText primary={skill.name} />

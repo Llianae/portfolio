@@ -18,8 +18,8 @@ msgid "01/2023-04/2023"
 msgstr "01/2023-04/2023"
 
 #: src/components/Background.js:28
-msgid "01/2025-06/2025"
-msgstr "01/2025-06/2025"
+#~ msgid "01/2025-06/2025"
+#~ msgstr "01/2025-06/2025"
 
 #: src/components/Background.js:51
 msgid "04/2022-07/2022"
@@ -30,8 +30,8 @@ msgid "06/2020"
 msgstr "06/2020"
 
 #: src/components/Background.js:21
-msgid "06/2025"
-msgstr "06/2025"
+#~ msgid "06/2025"
+#~ msgstr "06/2025"
 
 #: src/components/Background.js:78
 msgid "09/2017-06/2020"
@@ -42,26 +42,26 @@ msgid "09/2020"
 msgstr "09/2020"
 
 #: src/components/Background.js:35
-msgid "09/2023-01/2024"
-msgstr "09/2023-01/2024"
+#~ msgid "09/2023-01/2024"
+#~ msgstr "09/2023-01/2024"
 
 #: src/components/NavBar.js:12
 msgid "A Propos"
 msgstr "A Propos de moi"
 
-#: src/components/AboutMe.js:52
+#: src/components/AboutMe.js:129
 msgid "About"
 msgstr "A propos de moi"
 
-#: src/components/AboutMe.js:54
+#: src/components/AboutMe.js:137
 msgid "About me 1rst paragraph"
 msgstr "Je suis actuellement en première année du cycle ingénieur à CESI Strasbourg, une école utilisant la méthode PBL (problem based learning). Je recherche actuellement un stage à l'étranger, dans le cadre de mes études du 18 septembre au 2 février."
 
-#: src/components/AboutMe.js:57
+#: src/components/AboutMe.js:140
 msgid "About me 2nd paragraph"
 msgstr "Durant mon temps libre je travaille sur mes projets personnels ou je sors avec mes amis. J'ai fait du hand pendant 12 ans en tant que guardienne, avec mon équipe on a gagné quelques coupes et nous avons pu être championne d'Alsace pendant une année. J'adore faire de nouvelles activités, me dépenser et découvrir de nouvelles choses par mes expériences. Je suis curieuse et j'aime apprendre. Je lis aussi beaucoup de livres, que ce soit des romans policiers, fantastiques, d'action, ou des mangas."
 
-#: src/components/AboutMe.js:60
+#: src/components/AboutMe.js:143
 msgid "About me 3rd paragraph"
 msgstr "Je parle français couramment, c'est ma langue maternelle, et j'ai un niveau correct en anglais, niveau B1 (TOEIC : 690 pts)."
 
@@ -70,35 +70,40 @@ msgid "Accueil"
 msgstr "Accueil"
 
 #: src/components/App.js:46
-msgid""
+msgid ""
 "Actuellement en première année du cycle ingénieur en informatique\n"
 "dans une école d'ingénieur, je suis à la recherche d'un stage qui\n"
 "pourrait me rapprocher de mon futur métier."
-msgstr "Actuellement en première année du cycle ingénieur en informatique\n"
+msgstr ""
+"Actuellement en première année du cycle ingénieur en informatique\n"
 "dans une école d'ingénieur, je suis à la recherche d'un stage qui\n"
 "pourrait me rapprocher de mon futur métier."
 
-#: src/components/Skills.js:64
+#: src/components/Skills.js:69
 msgid "Adaptabilité"
 msgstr "Adaptabilité"
 
-#: src/components/Skills.js:103
+#: src/components/Skills.js:131
+msgid "Analyser, exploiter, structurer des données"
+msgstr "Analyser, exploiter, structurer des données"
+
+#: src/components/Skills.js:108
 msgid "Angular"
 msgstr "Angular"
 
-#: src/components/Skills.js:56
+#: src/components/Skills.js:61
 msgid "Autonomie"
 msgstr "Autonomie"
 
-#: src/components/Skills.js:83
+#: src/components/Skills.js:88
 msgid "C#"
 msgstr "C#"
 
-#: src/components/Skills.js:82
+#: src/components/Skills.js:87
 msgid "C++"
 msgstr "C++"
 
-#: src/components/Skills.js:89
+#: src/components/Skills.js:94
 msgid "CSS"
 msgstr "CSS"
 
@@ -106,7 +111,7 @@ msgstr "CSS"
 msgid "Cliquer sur un élément pour en savoir plus."
 msgstr "Cliquer sur un élément pour en savoir plus."
 
-#: src/components/Skills.js:36
+#: src/components/Skills.js:41
 msgid "Communication"
 msgstr "Communication"
 
@@ -114,39 +119,119 @@ msgstr "Communication"
 msgid "Competences"
 msgstr "Mes Compétences"
 
-#: src/components/Skills.js:129
+#: src/components/Skills.js:186
 msgid "Compétences"
 msgstr "Compétences"
+
+#: src/components/Skills.js:143
+msgid "Concevoir et développer une solution digitale"
+msgstr "Concevoir et développer une solution digitale"
+
+#: src/components/Skills.js:163
+msgid "Concevoir l'architecture d'un système, d'un réseau"
+msgstr "Concevoir l'architecture d'un système, d'un réseau"
+
+#: src/components/Skills.js:167
+msgid "Concevoir la cartographie fonctionnelle du SI"
+msgstr "Concevoir la cartographie fonctionnelle d'un système d'information"
+
+#: src/components/Skills.js:155
+msgid "Concevoir une application web"
+msgstr "Concevoir une application web"
 
 #: src/components/NavBar.js:13
 msgid "Contact"
 msgstr "Me Contacter"
 
-#: src/components/Skills.js:68
+#: src/components/Skills.js:73
 msgid "Créativité"
 msgstr "Créativité"
 
-#: src/components/Skills.js:60
+#: src/components/Skills.js:135
+msgid "Créer une documentation technique"
+msgstr "Créer une documentation technique"
+
+#: src/components/Skills.js:65
 msgid "Curiosité"
 msgstr "Curiosité"
 
-#: src/components/AboutMe.js:31
+#: src/components/AboutMe.js:103
+msgid "DB Designer"
+msgstr "DB Designer"
+
+#: src/components/AboutMe.js:105
+msgid "Description DB Designer"
+msgstr "Un outil de conception de base de données permettant de créer des modèles de bases de données, de générer des scripts SQL et de générer automatiquement des diagrammes de relations entre tables."
+
+#: src/components/AboutMe.js:70
+msgid "Description GitHub"
+msgstr "Une plateforme de développement de logiciels basée sur Git pour la gestion de versions, la collaboration et l'hébergement de projets."
+
+#: src/components/AboutMe.js:100
+msgid "Description JMerise"
+msgstr "Un outil de modélisation de base de données pour concevoir, visualiser et documenter des bases de données."
+
+#: src/components/AboutMe.js:75
+msgid "Description Microsoft Office"
+msgstr "Une suite d'applications bureautiques, comprenant notamment Word, Excel, PowerPoint, Outlook et Access."
+
+#: src/components/AboutMe.js:65
+msgid "Description MySQL Workbench"
+msgstr "Un outil de conception de bases de données et de développement pour le système de gestion de base de données MySQL."
+
+#: src/components/AboutMe.js:85
+msgid "Description Power BI"
+msgstr "Un outil de business intelligence (BI) pour visualiser et analyser des données, qui permet aux entreprises de prendre des décisions plus éclairées à partir de données."
+
+#: src/components/AboutMe.js:95
+msgid "Description Server Management"
+msgstr "Un logiciel de gestion de serveur qui permet aux administrateurs de gérer des serveurs et des réseaux informatiques, de surveiller les performances, d'automatiser des tâches et d'appliquer des politiques de sécurité."
+
+#: src/components/AboutMe.js:90
+msgid "Description Talend"
+msgstr "Un outil d'intégration de données open-source pour extraire, transformer et charger (ETL) des données entre différents systèmes et applications."
+
+#: src/components/AboutMe.js:110
+msgid "Description VMware et VirtualBox"
+msgstr "Des logiciels de  virtualisation permettant de créer des machines virtuelles, chacune d'entre elles fonctionnant comme un ordinateur indépendant avec son propre système d'exploitation."
+
+#: src/components/AboutMe.js:80
+msgid "Description Visual Paradigm"
+msgstr "Un outil de modélisation et de conception pour la création de diagrammes UML (Unified Modeling Language) et d'autres diagrammes de modélisation."
+
+#: src/components/AboutMe.js:60
+msgid "Description Visual Studio"
+msgstr "Un environnement de développement intégré (IDE) pour la création d'applications Windows, Web, mobiles et de bureau."
+
+#: src/components/AboutMe.js:55
+msgid "Description Visual Studio Code"
+msgstr "Un éditeur de code gratuit et open-source pour le développement de logiciels, qui prend en charge plusieurs langages de programmation. C'est sous cet éditeur que ce site a été réalisé."
+
+#: src/components/AboutMe.js:45
 msgid "Description plateformer game"
 msgstr "Début d'un petit jeu de plateforme à l'aide de Unity, en cours de développement."
 
-#: src/components/AboutMe.js:19
+#: src/components/AboutMe.js:33
 msgid "Description portfolio website"
 msgstr "Le site que vous êtes en train de visiter !"
 
-#: src/components/AboutMe.js:25
+#: src/components/AboutMe.js:39
 msgid "Description vacation planner website"
 msgstr "Un site web pour planifier ses vacances, regroupant des maisons de vacances. Il permet de les noter et de les commenter. Recherche par critères, et possibilité de créer des comptes. Utilisation de React, NodeJS et MySQL."
 
 #: src/components/Background.js:20
-msgid "Diplome d'ingénieur en informatique"
-msgstr "Diplome d'ingénieur en informatique"
+#~ msgid "Diplome d'ingénieur en informatique"
+#~ msgstr "Diplome d'ingénieur en informatique"
 
-#: src/components/Contact.js:166
+#: src/components/Skills.js:147
+msgid "Développer un logiciel, un système d'informations, une application"
+msgstr "Développer un logiciel, un système d'informations, une application"
+
+#: src/components/Skills.js:159
+msgid "Développer une application en lien avec une base de données"
+msgstr "Développer une application en lien avec une base de données"
+
+#: src/components/Contact.js:165
 msgid "Email"
 msgstr "Email"
 
@@ -154,11 +239,11 @@ msgstr "Email"
 msgid "Entrée au CESI"
 msgstr "Entrée au CESI"
 
-#: src/components/Contact.js:113
+#: src/components/Contact.js:112
 msgid "Envoyez moi un message !"
 msgstr "Envoyez moi un message !"
 
-#: src/components/Skills.js:72
+#: src/components/Skills.js:77
 msgid "Esprit d'analyse"
 msgstr "Esprit d'analyse"
 
@@ -170,23 +255,24 @@ msgstr "Etudiante en 1er année de cycle d'ingénieur en informatique"
 msgid "Filière général Scientifique-SVT, spécialité ISN, au lycée Dr Koeberle à Séléstat."
 msgstr "Filière général Scientifique-SVT, spécialité ISN, au lycée Dr Koeberle à Séléstat."
 
-#: src/components/Skills.js:44
+#: src/components/Skills.js:49
 msgid "Gestion de projet"
 msgstr "Gestion de projet"
 
-#: src/components/Skills.js:48
+#: src/components/Skills.js:53
 msgid "Gestion du stress"
 msgstr "Gestion du stress"
 
-#: src/components/Skills.js:111
+#: src/components/AboutMe.js:68
+#: src/components/Skills.js:116
 msgid "GitHub"
 msgstr "GitHub"
 
-#: src/components/Skills.js:86
+#: src/components/Skills.js:91
 msgid "HTML"
 msgstr "HTML"
 
-#: src/components/Skills.js:165
+#: src/components/Skills.js:222
 msgid "HardSkills"
 msgstr "HardSkills"
 
@@ -195,7 +281,8 @@ msgid ""
 "J'ai intégré l'école d'ingénieur CESI à Lingolsheim en septembre 2020, pour y suivre une formation \n"
 "d'ingénieur en informatique. C'est un cursus de 5 ans, avec une classe préparatoire intégrée qui dure 2 ans, et le cycle\n"
 "d'ingénieur qui dure 3 ans."
-msgstr "J'ai intégré l'école d'ingénieur CESI à Lingolsheim en septembre 2020, pour y suivre une formation \n"
+msgstr ""
+"J'ai intégré l'école d'ingénieur CESI à Lingolsheim en septembre 2020, pour y suivre une formation \n"
 "d'ingénieur en informatique. C'est un cursus de 5 ans, avec une classe préparatoire intégrée qui dure 2 ans, et le cycle\n"
 "d'ingénieur qui dure 3 ans."
 
@@ -203,33 +290,50 @@ msgstr "J'ai intégré l'école d'ingénieur CESI à Lingolsheim en septembre 20
 msgid "J'ai obtenu en 2020 mon baccalauréat scientifique spécialité ISN, avec mention bien."
 msgstr "J'ai obtenu en 2020 mon baccalauréat scientifique spécialité ISN, avec mention bien."
 
-#: src/components/Skills.js:91
+#: src/components/AboutMe.js:98
+msgid "JMerise"
+msgstr "JMerise"
+
+#: src/components/Skills.js:96
 msgid "JavaScript"
 msgstr "JavaScript"
+
+#: src/components/AboutMe.js:161
+msgid "Logiciel paragraph"
+msgstr "Durant ma formation j'ai appris l'utilisation de nombreux logiciels. En voici quelques uns :"
+
+#: src/components/AboutMe.js:157
+msgid "Logiciels"
+msgstr "Logiciels"
 
 #: src/components/Background.js:77
 msgid "Lycée Dr Koeberle"
 msgstr "Lycée Dr Koeberle"
 
-#: src/components/Skills.js:115
+#: src/components/AboutMe.js:73
+#: src/components/Skills.js:120
 msgid "Microsoft Office"
 msgstr "Microsoft Office"
 
-#: src/components/AboutMe.js:72
+#: src/components/AboutMe.js:193
 msgid "My projects"
 msgstr "Mes projets"
 
-#: src/components/Skills.js:107
+#: src/components/Skills.js:112
 msgid "MySQL"
 msgstr "MySQL"
 
-#: src/components/Contact.js:147
+#: src/components/AboutMe.js:63
+msgid "MySQL Workbench"
+msgstr "MySQL Workbench"
+
+#: src/components/Contact.js:146
 msgid "Nom"
 msgstr "Nom"
 
 #: src/components/Background.js:22
-msgid "Obtention de mon diplôme d'ingénieur en informatique à l'école CESI de Lingolsheim."
-msgstr "Obtention de mon diplôme d'ingénieur en informatique à l'école CESI de Lingolsheim."
+#~ msgid "Obtention de mon diplôme d'ingénieur en informatique à l'école CESI de Lingolsheim."
+#~ msgstr "Obtention de mon diplôme d'ingénieur en informatique à l'école CESI de Lingolsheim."
 
 #: src/components/Background.js:70
 msgid "Obtention du Baccalauréat Scientifique"
@@ -239,65 +343,81 @@ msgstr "Obtention du Baccalauréat Scientifique"
 msgid "Parcours"
 msgstr "Mon Parcours"
 
-#: src/components/Skills.js:76
+#: src/components/Skills.js:81
 msgid "Perseverance"
 msgstr "Persévérance"
 
-#: src/components/AboutMe.js:30
+#: src/components/AboutMe.js:44
 msgid "Plateformer game"
 msgstr "Jeu de plateforme"
 
-#: src/components/Contact.js:140
+#: src/components/Contact.js:139
 msgid "Please enter a firstname."
 msgstr "Veuillez entrer un prénom."
 
-#: src/components/Contact.js:194
+#: src/components/Contact.js:193
 msgid "Please enter a message."
 msgstr "Veuillez entrer un message."
 
-#: src/components/Contact.js:159
+#: src/components/Contact.js:158
 msgid "Please enter a name."
 msgstr "Veuillez entrer un nom."
 
-#: src/components/Contact.js:177
+#: src/components/Contact.js:176
 msgid "Please enter a valid email."
 msgstr "Veuillez entrer un email valide."
 
-#: src/components/AboutMe.js:18
+#: src/components/AboutMe.js:32
 msgid "Portfolio website"
 msgstr "Site web de portfolio"
 
-#: src/components/AboutMe.js:84
+#: src/components/AboutMe.js:83
+msgid "Power BI"
+msgstr "Power BI"
+
+#: src/components/Skills.js:151
+msgid "Programmer"
+msgstr "Programmer"
+
+#: src/components/AboutMe.js:205
 msgid "Projets personnels"
 msgstr "Projets personnels"
 
-#: src/components/Contact.js:129
+#: src/components/Contact.js:128
 msgid "Prénom"
 msgstr "Prénom"
 
-#: src/components/Skills.js:84
+#: src/components/Skills.js:89
 msgid "Python"
 msgstr "Python"
 
-#: src/components/Skills.js:99
+#: src/components/Skills.js:104
 msgid "React"
 msgstr "React"
 
-#: src/components/Skills.js:52
+#: src/components/Skills.js:57
 msgid "Rigueur"
 msgstr "Rigueur"
 
-#: src/components/Skills.js:145
+#: src/components/Skills.js:139
+msgid "Rédiger un cahier des charges, des spécifications techniques"
+msgstr "Rédiger un cahier des charges, des spécifications techniques"
+
+#: src/components/AboutMe.js:93
+msgid "Server Management"
+msgstr "Server Management"
+
+#: src/components/Skills.js:202
 msgid "SoftSkills"
 msgstr "SoftSkills"
 
-#: src/components/Contact.js:210
+#: src/components/Contact.js:209
 msgid "Soumettre"
 msgstr "Soumettre"
 
 #: src/components/Background.js:27
-msgid "Stage de cinquième année"
-msgstr "Stage de cinquième année"
+#~ msgid "Stage de cinquième année"
+#~ msgstr "Stage de cinquième année"
 
 #: src/components/Background.js:50
 msgid "Stage de deuxième année"
@@ -310,23 +430,24 @@ msgid ""
 "C'est durant ce stage que j'ai pu apprendre le language TypeScript et le framework Angular. J'ai aussi pu travailler\n"
 "sur un projet en autonomie, où j'ai pu apprendre le webgl, afin d'améliorer la création d'un arrière plan virtuel, lors \n"
 "d'un appel vidéo dans la solution de communication Rainbow."
-msgstr "Stage de deuxième année, réalisé chez Alcatel-Lucent-Enterprise, dans le service de développement web. \n"
-"J'ai pu découvrir ce qu'était la vie en entreprise, et j'ai pu développer mes compétences en développement web. \n"
-"C'est durant ce stage que j'ai pu apprendre le language TypeScript et le framework Angular. J'ai aussi pu travailler\n"
-"sur un projet en autonomie, où j'ai pu apprendre le webgl, afin d'améliorer la création d'un arrière plan virtuel, lors \n"
+msgstr ""
+"Stage de deuxième année, réalisé chez Alcatel-Lucent-Enterprise, dans le service de développement web. \n"
+"J'ai pu découvrir ce qu'était la vie en entreprise, et j'ai développé mes compétences en développement web. \n"
+"C'est durant ce stage que j'ai appris le language TypeScript et le framework Angular. J'ai aussi travaillé\n"
+"sur un projet en autonomie, où j'ai appris le webgl, afin d'améliorer la création d'un arrière plan virtuel, lors \n"
 "d'un appel vidéo dans la solution de communication Rainbow."
 
 #: src/components/Background.js:29
-msgid "Stage de fin d'étude."
-msgstr "Stage de fin d'étude."
+#~ msgid "Stage de fin d'étude."
+#~ msgstr "Stage de fin d'étude."
 
 #: src/components/Background.js:34
-msgid "Stage de quatrième année à l'étranger"
-msgstr "Stage de quatrième année à l'étranger"
+#~ msgid "Stage de quatrième année à l'étranger"
+#~ msgstr "Stage de quatrième année à l'étranger"
 
 #: src/components/Background.js:36
-msgid "Stage de qutrième année à l'étranger."
-msgstr "Stage de quatrième année, qui doit être réalisé à l'étranger."
+#~ msgid "Stage de qutrième année à l'étranger."
+#~ msgstr "Stage de quatrième année, qui doit être réalisé à l'étranger."
 
 #: src/components/Background.js:41
 msgid "Stage de troisième année"
@@ -337,26 +458,55 @@ msgid ""
 "Stage de troisième année de 14 semaines, effectué au sein de la société YggVal dans le service d'infogérance. \n"
 "J'ai pu développer mes compétences en réseau et système. J'ai pu participer à la vie du service, \n"
 "et intervenir chez des clients lors de la résolution de problèmes et pour le renouvellement d'infrastructure."
-msgstr "Stage de troisième année de 14 semaines, effectué au sein de la société YggVal dans le service d'infogérance. \n"
-"J'ai pu développer mes compétences en réseau et système. J'ai pu participer à la vie du service, \n"
-"et intervenir chez des clients lors de la résolution de problèmes et pour le renouvellement d'infrastructure.\""
+msgstr ""
+"Stage de troisième année de 14 semaines, effectué au sein de la société YggVal dans le service d'infogérance. \n"
+"J'ai pu développer mes compétences en réseau et système. J'ai participé à la vie du service, \n"
+"et j'ai effectué des interventions chez des clients pour la résolution de problèmes et pour le renouvellement d'infrastructure."
 
-#: src/components/Skills.js:40
+#: src/components/Skills.js:127
+msgid "Structurer, synthétiser des informations"
+msgstr "Structurer, synthétiser des informations"
+
+#: src/components/AboutMe.js:88
+msgid "Talend"
+msgstr "Talend"
+
+#: src/components/Skills.js:45
 msgid "Travail en équipe"
 msgstr "Travail en équipe"
 
-#: src/components/Skills.js:95
+#: src/components/Skills.js:100
 msgid "Typescript"
 msgstr "Typescript"
 
-#: src/components/AboutMe.js:24
+#: src/components/AboutMe.js:108
+msgid "VMware et VirtualBox"
+msgstr "VMware et VirtualBox"
+
+#: src/components/AboutMe.js:38
 msgid "Vacation planner website"
 msgstr "Site web de planification de vacances"
 
-#: src/components/Contact.js:112
+#: src/components/AboutMe.js:78
+msgid "Visual Paradigm"
+msgstr "Visual Paradigm"
+
+#: src/components/AboutMe.js:58
+msgid "Visual Studio"
+msgstr "Visual Studio"
+
+#: src/components/AboutMe.js:53
+msgid "Visual Studio Code"
+msgstr "Visual Studio Code"
+
+#: src/components/Contact.js:111
 msgid "Vous avez des questions ?"
 msgstr "Vous avez des questions ?"
 
-#: src/components/Contact.js:184
+#: src/components/Skills.js:242
+msgid "knowledge"
+msgstr "savoir-faire"
+
+#: src/components/Contact.js:183
 msgid "message"
 msgstr "Message"

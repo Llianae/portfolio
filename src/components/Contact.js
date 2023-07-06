@@ -179,8 +179,8 @@ function Contact() {
               <TextField
                 id="standard-basic-message"
                 variant="standard"
-                label="Message"
-                name={t`message`}
+                label={t`message`}
+                name="Message"
                 color={"formulaireBorderColor"}
                 multiline
                 disabled={isSubmitting}

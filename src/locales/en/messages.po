@@ -75,9 +75,9 @@ msgid ""
 "dans une école d'ingénieur, je suis à la recherche d'un stage qui\n"
 "pourrait me rapprocher de mon futur métier."
 msgstr ""
-"Currently in my first year of computer engineering studies\n"
-"at an engineering school, I am looking for an internship that could\n"
-"bring me closer to my future career."
+"Currently in my second year of computer engineering studies\n"
+"at an engineering school, I am looking for a work/study program \n"
+"for my final year that could bring me closer to my future career."
 
 #: src/components/Skills.js:69
 msgid "Adaptabilité"

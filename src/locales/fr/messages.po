@@ -75,9 +75,9 @@ msgid ""
 "dans une école d'ingénieur, je suis à la recherche d'un stage qui\n"
 "pourrait me rapprocher de mon futur métier."
 msgstr ""
-"Actuellement en première année du cycle ingénieur en informatique\n"
-"dans une école d'ingénieur, je suis à la recherche d'un stage qui\n"
-"pourrait me rapprocher de mon futur métier."
+"Actuellement en deuxième année du cycle ingénieur en informatique dans\n"
+"une école d'ingénieur, je suis à la recherche d'un contrat professionnel \n"
+"pour ma dernière année qui pourrait me rapprocher de mon futur métier."
 
 #: src/components/Skills.js:69
 msgid "Adaptabilité"

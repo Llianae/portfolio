@@ -55,7 +55,7 @@ msgstr "A propos de moi"
 
 #: src/components/AboutMe.js:137
 msgid "About me 1rst paragraph"
-msgstr "Je suis actuellement en première année du cycle ingénieur à CESI Strasbourg, une école utilisant la méthode PBL (problem based learning). Je recherche actuellement un stage à l'étranger, dans le cadre de mes études du 18 septembre au 2 février."
+msgstr "Je suis actuellement en deuxième année du cycle ingénieur à CESI Strasbourg, une école d'ingénieur utilisant la méthode PBL (problem based learning). Je recherche actuellement un contrat professionnel pour ma dernière année."
 
 #: src/components/AboutMe.js:140
 msgid "About me 2nd paragraph"
